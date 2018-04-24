@@ -14,9 +14,9 @@ public class Base64Test {
         String s2 = Base64.decode(b64);
         assertEquals(s, s2);
     }
-//
-//    @Test
-//    public void encode_Base64null() {
-//
-//    }
+
+    @Test
+    public void encode_Base64null() {
+
+    }
 }
